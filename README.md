@@ -1,5 +1,7 @@
-#Matchbox v0.2
+#Matchbox v0.2.1
 Minimal page template useful for demos.
+
+This release will be the last on the 2.x.x branch of Bootstrap.
 
 ##Includes
 + [Bootstrap CSS](http://twitter.github.com/bootstrap/base-css.html) (remote)
