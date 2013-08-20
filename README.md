@@ -1,7 +1,7 @@
-#Matchbox v0.2.1
+#Matchbox v0.3.0
 Minimal page template useful for demos.
 
-This release will be the last on the 2.x.x branch of Bootstrap.
+This release is the first on the 3.x.x branch of Bootstrap (which is still in beta).
 
 ##Includes
 + [Bootstrap CSS](http://twitter.github.com/bootstrap/base-css.html) (remote)
