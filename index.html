@@ -11,11 +11,31 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<header class="jumbotron">
+			<header role="banner">
+				<!-- The site logo, nav etc. -->
 				<h1>Matchbox</h1>
 			</header>
 		</div>
+
+		<div class="row">
+			<main role="main">
+				<!-- Main content of the page -->
+				<article>
+					<header></header>
+					<p>Your content here</p>
+					<footer></footer>
+				</article>
+			</main>
+		</div>
+
+		<div class="row">
+			<footer role="contentinfo">
+				<!-- Attribution links etc -->
+				<p>Built with <a href="http://github.com/Trippnology/Matchbox">Matchbox</a> from <a href="http://trippnology.com/">Trippnology</a></p>
+			</footer>
+		</div>
 	</div>
+
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
 	<script src="js/consolelog.min.js"></script>
