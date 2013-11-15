@@ -1,4 +1,4 @@
-#Matchbox v0.3.1
+#Matchbox v0.3.2
 Minimal page template useful for demos.
 
 This release uses the 3.x.x branch of Bootstrap.
