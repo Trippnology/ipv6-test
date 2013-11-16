@@ -1,37 +1,41 @@
+<?php $addr = $_SERVER['REMOTE_ADDR']; ?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
 	<meta charset="utf-8">
-	<title>Matchbox</title>
+	<title>IPv6 Test | Trippnology</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
+	<style>
+		body { text-align: center; }
+		img[alt="IPv6 logo"] { margin-bottom: 10px; }
+	</style>
 </head>
 
 <body>
 	<div class="container">
 		<header role="banner">
 			<div class="row">
-				<!-- The site logo, nav etc. -->
-				<h1>Matchbox</h1>
+				<h1>IPv6 Test</h1>
 			</div>
 		</header>
 
 		<main role="main">
 			<div class="row">
-				<!-- Main content of the page -->
 				<article>
-					<header></header>
-					<p>Your content here</p>
-					<footer></footer>
+					<p>If you're reading this, you can access 'IPv6 only' sites as this site does not have an A record, only an AAAA record.</p>
+					<h2>Your address is:</h2>
+					<p class="ip"><?=$addr?></p>
+					<img src="img/ipv6-logo.png" alt="IPv6 logo">
 				</article>
 			</div>
 		</main>
 
 		<footer role="contentinfo">
 			<div class="row">
-				<!-- Attribution links etc -->
 				<p>Built with <a href="http://github.com/Trippnology/Matchbox">Matchbox</a> from <a href="http://trippnology.com/">Trippnology</a></p>
+				<img src="img/ipv6-80-15.png" alt="IPv6 ready">
 			</div>
 		</footer>
 	</div>
