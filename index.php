@@ -39,10 +39,5 @@
 			</div>
 		</footer>
 	</div>
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
-	<script src="js/consolelog.min.js"></script>
-	<script src="js/script.js"></script>
 </body>
 </html>
