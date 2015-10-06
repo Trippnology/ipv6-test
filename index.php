@@ -34,7 +34,7 @@
 	<meta charset="utf-8">
 	<title>IPv6 Test | Trippnology</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.trippnology.net/css/bootstrap-3.2.0.min.css">
 	<style>
 		body { text-align: center; }
 		img[alt="IPv6 logo"] { margin-bottom: 10px; }
