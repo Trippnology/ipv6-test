@@ -1,11 +1,10 @@
-#Matchbox v0.3.2
-Minimal page template useful for demos.
+# IPv6 Test
+This page sits on a server without an A record, just an AAAA record, so it is only accesible via IPv6.
 
-This release uses the 3.x.x branch of Bootstrap.
+http://ipv6.trippnology.com/
 
-##Includes
-+ [Bootstrap CSS](http://twitter.github.com/bootstrap/base-css.html) (remote)
-+ [ARIA Roles](http://www.w3.org/TR/wai-aria/roles)
-+ [jQuery](http://jquery.com/) (remote)
-+ [Bootstrap JS](http://twitter.github.com/bootstrap/javascript.html) (remote)
-+ [Console.log-wrapper](https://github.com/cpatik/console.log-wrapper) (local)
+You can add a format query parameter to get your IP in various formats, like so:
+
+1. Text: `http://ipv6.trippnology.com/?format=text`
+2. JSON: `http://ipv6.trippnology.com/?format=json`
+3. JSONP: `http://ipv6.trippnology.com/?format=jsonp&callback=yourcallback`
