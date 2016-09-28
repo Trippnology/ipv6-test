@@ -65,9 +65,9 @@
 					<p class="lead">Help</p>
 					<p>You can add a <code>format</code> query parameter to get your IP in various formats, like so:</p>
 					<ol>
-						<li>Text: <code>http://ipv6.trippnology.com/?format=text</code></li>
-						<li>JSON: <code>http://ipv6.trippnology.com/?format=json</code></li>
-						<li>JSONP: <code>http://ipv6.trippnology.com/?format=jsonp&amp;callback=yourcallback</code></li>
+						<li>Text: <code>https://ipv6.trippnology.com/?format=text</code></li>
+						<li>JSON: <code>https://ipv6.trippnology.com/?format=json</code></li>
+						<li>JSONP: <code>https://ipv6.trippnology.com/?format=jsonp&amp;callback=yourcallback</code></li>
 					</ol>
 				</div>
 			</div>
@@ -75,7 +75,7 @@
 
 		<footer role="contentinfo">
 			<div class="row">
-				<p>Built with <a href="http://github.com/Trippnology/Matchbox">Matchbox</a> from <a href="http://trippnology.com/">Trippnology</a></p>
+				<p>Built with <a href="https://github.com/Trippnology/Matchbox">Matchbox</a> from <a href="https://trippnology.com/">Trippnology</a></p>
 				<img src="img/ipv6-80x15.png" alt="IPv6 ready">
 			</div>
 		</footer>
